@@ -1,0 +1,18 @@
+@media screen and (max-width: 300px)
+{
+    body{background-color: red; color:white;}
+    #Medium{display: none;}
+    #Large{display: none;}
+}
+@media screen and (min-width: 300px) and (max-width: 768px)
+{
+    body{background-color: green; color: white;}
+    #Small{display: none;}
+    #Large{display: none;}
+}
+@media screen and (min-width: 768px)
+{
+    body{background-color: blue; color: white;}
+    #Small{display: none;}
+    #Medium{display: none;}
+}
